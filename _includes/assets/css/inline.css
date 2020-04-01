@@ -16,9 +16,9 @@ body {
 }
 
 body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
+	/* display: grid; */
+	/* height: 100vh; */
+	/* grid-template-rows: auto 1fr auto; */
 	/* background-color: var(--turkey); */
 }
 
@@ -32,19 +32,19 @@ code {
 	line-height: 1.5;
 }
 
-a[href],
+/* a[href],
 a[href]:visited {
 	color: var(--blue);
 }
 
 a[href]:not(:hover) {
 	text-decoration: none;
-}
+} */
 
 header,
 main,
 footer {
-	padding: 1em;
+	/* padding: 1em; */
 }
 
 main {

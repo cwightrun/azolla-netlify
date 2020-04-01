@@ -1,0 +1,9 @@
+<div class="hero {% if hero_align %}text-align-{{ hero_align }}{% endif %}">
+
+    <div class="hero--copy container">
+        {{ hero_body | markdown | safe }}
+    </div>
+
+    <img class="hero--image" src="{{ hero_image }}" />
+
+</div>

@@ -1,6 +1,6 @@
 ---
 title: Home
-hero_align: left
+hero_align: center
 hero_body: >
   # Turning pollution into innovation
 

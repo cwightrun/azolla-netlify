@@ -6,15 +6,19 @@
 	<body>
 
 		<header>
-			{# <em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em> #}
-			<a href="{{ '/' | url }}">Azolla</a>
-			{% include "components/nav.njk" %}
+			<div class="container">
+				<a href="{{ '/' | url }}">Azolla</a>
+				{% include "components/nav.njk" %}
+			</div>
 		</header>
 
 		<main>
-			{{ layoutContent | safe }}
+				{% if hero_body %}
+				{% include "components/hero.njk" %}
+				{% endif %}
+			<div class="container">
+				{{ layoutContent | safe }}
+			</div>
 		</main>
 
 		{% include "components/footer.njk" %}
