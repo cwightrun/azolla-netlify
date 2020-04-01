@@ -6,5 +6,8 @@ eleventyNavigation:
   order: 0
   key: New Page
 body 2: This is body 2.
+hero_body: |-
+  # Ekko.
+  ## Sustainable biomaterial, created using only CO2 and sunlight.
 ---
 This is body 1.
