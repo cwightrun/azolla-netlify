@@ -6,7 +6,7 @@ permalink: /
 eleventyNavigation:
   key: ''
   order: ''
-align: left
+hero_align: left
 ---
 # Turning pollution into innovation
 

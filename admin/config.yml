@@ -36,6 +36,10 @@ collections:
         fields:
           - { label: "Key", name: "key", widget: "string", required: false }
           - { label: "Order", name: "order", widget: "number", default: 0, required: false }
+      - label: "Hero Content Alignment"
+        name: "hero_align"
+        widget: "select"
+        options: ["left", "center", "right"]
       - { label: "Hero Body", name: "hero_body", widget: "markdown", required: false }
       - { label: "Hero Image", name: "hero_image", widget: "image", required: false, tagname: "" }
       - { label: "Body", name: "body", widget: "markdown" }

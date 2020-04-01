@@ -5,7 +5,7 @@ section: page
 
 
 {% if hero_body %}
-<div class="hero">
+<div class="hero {% if hero_align %}align-{{ hero_align }}{% endif %}">
 
     <div class="hero--copy">
         {{ hero_body | markdown | safe }}

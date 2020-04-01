@@ -6,6 +6,7 @@ eleventyNavigation:
   order: 0
   key: Ekko
 body 2: This is body 2.
+hero_align: left
 hero_body: |-
   # Ekko.
 
