@@ -34,8 +34,8 @@ collections:
         name: "eleventyNavigation"
         widget: "object"
         fields:
-          - { label: "Key", name: "key", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Hero Body", name: "hero_body", widget: "markdown" }
+          - { label: "Key", name: "key", widget: "string", required: false }
+          - { label: "Order", name: "order", widget: "number", default: 0, required: false }
+      - { label: "Hero Body", name: "hero_body", widget: "markdown", required: false }
       - { label: "Hero Image", name: "hero_image", widget: "image", required: false, tagname: "" }
       - { label: "Body", name: "body", widget: "markdown" }

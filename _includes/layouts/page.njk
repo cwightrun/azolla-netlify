@@ -3,7 +3,17 @@ layout: layouts/base.njk
 section: page
 ---
 
-{{ layoutContent | safe }}
 
-{{ hero_image }}
-{{ hero_body }}
+{% if hero_body %}
+<div class="hero">
+
+    <div class="hero--copy">
+        {{ hero_body | markdown | safe }}
+    </div>
+
+    <img class="hero--image" src="{{ hero_image }}" />
+
+</div>
+{% endif %}
+
+{{ layoutContent | safe }}
