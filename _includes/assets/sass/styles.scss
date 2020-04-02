@@ -25,5 +25,11 @@ footer {
   }
 }
 
+.section  {
+    &-2-3 {
+        width: 66%;
+    }
+}
+
 @import "components/hero";
 @import "components/header";
