@@ -1,7 +1,7 @@
 @import 'base/variables';
 
 body {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 header,
@@ -14,3 +14,4 @@ footer {
 }
 
 @import 'components/hero';
+@import 'components/header';

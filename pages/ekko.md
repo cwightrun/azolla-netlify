@@ -8,13 +8,8 @@ eleventyNavigation:
 body 2: This is body 2.
 hero_align: left
 hero_body: |-
-  # Ekko.
-
-  ## Sustainable biomaterial, created using only CO2 and sunlight.
-
-  * Programmable
-  * Customizable
-  * Impactful
+  ## a sustainable biomaterial<br />created using only CO<sub>2</sub> and sunlight
+  # Ekko
 hero_image: /static/img/chuttersnap-6lwqkradmns-unsplash.jpg
 ---
 This is body 1.

@@ -4,7 +4,6 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const sass = require('./sass-process');
 
 module.exports = function(eleventyConfig) {
 
@@ -67,9 +66,6 @@ module.exports = function(eleventyConfig) {
       remove: /[*+~.·,()'"`´%!?¿:@]/g
     });
   });
-
-  //Watching for modificaions in style directory
-  sass('./_includes/assets/sass/styles.scss', './_includes/assets/css/styles.css');
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
