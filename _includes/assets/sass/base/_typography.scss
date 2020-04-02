@@ -1,0 +1,61 @@
+// Headings
+
+h2, h3, h4 {
+  margin: 0.5em 0;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0.25em;
+  line-height: 1.3;
+
+  @include mq(desktop) {
+    font-size: 5em;
+  }
+
+  &.lg {
+    @include mq(tablet) {
+      font-size: 5em;
+    }
+
+    @include mq(desktop) {
+      font-size: 6em;
+    }
+  }
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.4;
+
+  @include mq(desktop) {
+    font-size: 3em;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.45;
+
+  @include mq(desktop) {
+    font-size: 2em;
+  }
+}
+
+h4 {
+  @extend .regular;
+  font-size: 1em;
+  line-height: 1.45;
+
+  @include mq(tablet) {
+    font-size: 1.25em;
+  }
+
+  @include mq(desktop) {
+    font-size: 1.5em;
+  }
+}

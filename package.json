@@ -34,8 +34,11 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "html-minifier": "^4.0.0",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-front-matter": "^0.2.1",
     "path": "^0.12.7",
     "sass": "^1.26.3",
+    "sass-mq": "^5.0.1",
     "uglify-es": "^3.3.9"
   }
 }

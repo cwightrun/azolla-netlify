@@ -75,6 +75,7 @@ module.exports = function(eleventyConfig) {
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
+  let markdownItContainer = require('markdown-it-container');
   let markdownItAnchor = require("markdown-it-anchor");
   let options = {
     html: true,
@@ -87,11 +88,26 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
+    .use(markdownItContainer, 'md-containerdynamic', {
+      validate: function() { return true; },
+      render: function(tokens, idx) {
+          var token = tokens[idx];
+  
+          if (token.nesting === 1) {
+              return '<div class="' + token.info.trim() + '">';
+          } else {
+              return '</div>';
+          }
+      }
+    })
   );
 
   eleventyConfig.addFilter('markdown', function(value) {
-    let markdown = require('markdown-it')(options);
-    return markdown.render(value);
+    return markdownIt(options)
+            .use(markdownItAnchor, opts)
+            .use(markdownItContainer, 'md-container-filter', {})
+            .render(value);
+    // return markdownIt.render(value);
   });
 
   return {

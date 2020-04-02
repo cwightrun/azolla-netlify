@@ -17,7 +17,7 @@
 				{% include "components/hero.njk" %}
 				{% endif %}
 			<div class="container">
-				{{ layoutContent | safe }}
+				{{ layoutContent | markdown | safe }}
 			</div>
 		</main>
 

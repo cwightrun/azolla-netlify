@@ -1,17 +1,29 @@
-@import 'base/variables';
+@import "../../../node_modules/sass-mq/mq";
+@import "base/variables";
+@import "base/typography";
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header,
 main,
 footer {
-    .container {
-        max-width: 1024px;
-        margin: auto;
-    }
+  .container {
+    max-width: 1024px;
+    margin: auto;
+  }
 }
 
-@import 'components/hero';
-@import 'components/header';
+.container {
+  padding-left: $spacing-mobile;
+  padding-right: $spacing-mobile;
+
+  @include mq(desktop) {
+    padding-left: $spacing-desktop;
+    padding-right: $spacing-desktop;
+  }
+}
+
+@import "components/hero";
+@import "components/header";
