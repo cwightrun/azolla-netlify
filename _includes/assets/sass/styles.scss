@@ -4,13 +4,14 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  color: #222;
 }
 
 header,
 main,
 footer {
   .container {
-    max-width: 1024px;
+    max-width: $max-width;
     margin: auto;
   }
 }
@@ -25,11 +26,7 @@ footer {
   }
 }
 
-.section  {
-    &-2-3 {
-        width: 66%;
-    }
-}
-
 @import "components/hero";
 @import "components/header";
+@import "components/callout";
+@import "home";

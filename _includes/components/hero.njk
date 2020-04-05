@@ -1,4 +1,5 @@
-<div class="hero {% if hero_align %}text-align-{{ hero_align }}{% endif %}">
+{% set sectionClass = 'hero--'~section %}
+<div class="hero {{ sectionClass }} {% if hero_align %}text-align-{{ hero_align }}{% endif %}">
 
     <div class="hero--copy container">
         {{ hero_body | markdown | safe }}

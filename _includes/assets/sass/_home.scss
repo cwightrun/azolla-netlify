@@ -1,0 +1,78 @@
+.section {
+  &--wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  &--half {
+    width: 50%;
+  }
+
+  &--intro {
+    font-size: 32px;
+    padding-bottom: 96px;
+    text-align: center;
+
+    h4:first-child {
+      color: #666;
+    }
+  }
+
+  &--home {
+    @include mq(tablet) {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    h3 {
+      @extend .h2;
+      position: relative;
+      padding: 0 calc(#{$spacing-desktop} * 2) 24px 0;
+      margin: 0;
+      text-transform: uppercase;
+
+      @include mq(tablet) {
+        width: 33%;
+        padding-bottom: 0;
+        text-align: right;
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 2px;
+        top: 42px;
+        background: linear-gradient(
+          -9deg,
+          $green 0%,
+          saturate($green, 10%) 100%
+        );
+
+        @include mq(tablet) {
+          width: 100px;
+          top: 48px;
+          right: calc(#{$spacing-desktop} * 2);
+        }
+
+        @include mq(desktop) {
+          height: 4px;
+          top: 64px;
+        }
+      }
+    }
+
+    p {
+      @extend .large;
+      margin-top: 0;
+      margin-bottom: 48px;
+      align-self: top;
+      display: block;
+
+      @include mq(tablet) {
+        width: 60%;
+        font-size: 24px;
+      }
+    }
+  }
+}

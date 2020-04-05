@@ -1,0 +1,42 @@
+.callout {
+  position: relative;
+  display: block;
+  margin-top: 120px;
+  padding: 80px;
+  text-decoration: none;
+  color: $green;
+  background: linear-gradient(172deg, #eee 0%, #fff 100%);
+  overflow: hidden;
+
+  &,
+  h3,
+  h3 span {
+    transition: color 120ms ease;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  span {
+    @extend .h3;
+    color: $dark-grey;
+    margin: 0;
+    display: block;
+    clear: both;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background: $green;
+
+    &,
+    span {
+      color: #fff;
+    }
+
+    &::before {
+      transform: translateY(-50%);
+    }
+  }
+}
