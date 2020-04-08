@@ -5,6 +5,20 @@
         {{ hero_body | markdown | safe }}
     </div>
 
-    <img loading="lazy" class="hero--image" src="{{ hero_image }}" />
+    <picture>
+        <source type="image/webp"
+                srcset="{{ hero_image_desktop_1x_webp }},
+                        {{ hero_image_desktop_2x_webp }} 2x"
+                />
+        <source srcset="{{ hero_image_desktop_1x_jpg }},
+                        {{ hero_image_desktop_2x_jpg }} 2x"
+                />
+        <img 
+            loading="lazy"
+            class="hero--image"
+            alt="Azolla"src="{{ hero_image_desktop_1x_jpg }}"
+            alt="The Speed of Light and the Timing of Eclipses" 
+        />
+    </picture>
 
 </div>

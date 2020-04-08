@@ -41,5 +41,8 @@ collections:
         widget: "select"
         options: ["left", "center", "right"]
       - { label: "Hero Body", name: "hero_body", widget: "markdown", required: false }
-      - { label: "Hero Image", name: "hero_image", widget: "image", required: false, tagname: "" }
+      - { label: "Hero Image, Device, 1x", name: "hero_image_device_1x", widget: "image", required: false, tagname: "" }
+      - { label: "Hero Image, Device, 2x", name: "hero_image_device_2x", widget: "image", required: false, tagname: "" }
+      - { label: "Hero Image, Desktop, 1x", name: "hero_image_desktop_1x", widget: "image", required: false, tagname: "" }
+      - { label: "Hero Image, Desktop, 2x", name: "hero_image_desktop_2x", widget: "image", required: false, tagname: "" }
       - { label: "Body", name: "body", widget: "markdown" }

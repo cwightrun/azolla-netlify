@@ -9,7 +9,10 @@ permalink: /
 eleventyNavigation:
   key: ''
   order: ''
-hero_image: /static/img/jj-ying-7jx0-bfiuxq-unsplash.jpg
+hero_image_desktop_1x_jpg: /static/img/home--desktop@1x.jpg
+hero_image_desktop_1x_webp: /static/img/home--desktop@1x.webp
+hero_image_desktop_2x_jpg: /static/img/home--desktop@2x.jpg
+hero_image_desktop_2x_webp: /static/img/home--desktop@2x.webp
 ---
 
 :::::: section--wrapper
@@ -46,5 +49,5 @@ hero_image: /static/img/jj-ying-7jx0-bfiuxq-unsplash.jpg
 ::::::
 
 <a href="/ekko.html" class="callout callout--large">
-  <h3>Introducing <span>Ekko</span></h3>
+  <h3>Introducing <span>Ekko<span>.</span></span></h3>
 </a>
