@@ -9,10 +9,27 @@ permalink: /
 eleventyNavigation:
   key: ''
   order: ''
-hero_image_desktop_1x_jpg: /static/img/home--desktop@1x.jpg
-hero_image_desktop_1x_webp: /static/img/home--desktop@1x.webp
-hero_image_desktop_2x_jpg: /static/img/home--desktop@2x.jpg
-hero_image_desktop_2x_webp: /static/img/home--desktop@2x.webp
+hero_alt: The Speed of Light and the Timing of Eclipses
+
+hero_image_xsmall_1x_jpg: /static/img/home--xsmall@1x.jpg
+hero_image_xsmall_1x_webp: /static/img/home--xsmall@1x.webp
+hero_image_xsmall_2x_jpg: /static/img/home--xsmall@2x.jpg
+hero_image_xsmall_2x_webp: /static/img/home--xsmall@2x.webp
+
+hero_image_small_1x_jpg: /static/img/home--small@1x.jpg
+hero_image_small_1x_webp: /static/img/home--small@1x.webp
+hero_image_small_2x_jpg: /static/img/home--small@2x.jpg
+hero_image_small_2x_webp: /static/img/home--small@2x.webp
+
+hero_image_medium_1x_jpg: /static/img/home--medium@1x.jpg
+hero_image_medium_1x_webp: /static/img/home--medium@1x.webp
+hero_image_medium_2x_jpg: /static/img/home--medium@2x.jpg
+hero_image_medium_2x_webp: /static/img/home--medium@2x.webp
+
+hero_image_large_1x_jpg: /static/img/home--large@1x.jpg
+hero_image_large_1x_webp: /static/img/home--large@1x.webp
+hero_image_large_2x_jpg: /static/img/home--large@2x.jpg
+hero_image_large_2x_webp: /static/img/home--large@2x.webp
 ---
 
 :::::: section--wrapper
@@ -24,7 +41,7 @@ hero_image_desktop_2x_webp: /static/img/home--desktop@2x.webp
 
 ::::::
 
-:::::: section--wrapper
+:::::: section--wrapper section--wrapper--home
 
 ::: section section--home
   ### Vision

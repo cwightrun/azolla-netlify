@@ -6,27 +6,30 @@ eleventyNavigation:
   key: About
   order: 1
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+# About Azolla
 
-## Our services
+::: section section--intro section-2-3
+  Our invention is <span class="highlight highlight--green">revolutionary</span>
+  Our raw materials are <span class="highlight highlight--green">abundant</span> and <span class="highlight highlight--green">free</span>
+  Our team is the <span class="highlight highlight--green">best</span> in their field
+:::
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## Azolla Story
+Our company is named after the Azolla Event:
+50 million years ago, atmospheric CO2 levels were extremely high and the future for all life seemed bleak. Out of nowhere, Azolla fern came to the rescue and by sucking the carbon dioxide out of the air saved the Planet!
 
-### Blue-sky thinking
+Today, San Francisco based Azolla is dedicated to making major contribution to end environmental degradation caused by toxic manufacturing. Our technology brings together genomics, industrial photosynthesis and advanced engineering to create a transformative material of the future. 
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<p>&nbsp;</p>
 
-#### Management frameworks
+## Executive Team
+We are innovative leaders skilled in product development, management and manufacturing. Through influence and leadership, we have been inspiring diverse communities of designers and inventors, scientists, public, government and military agencies on four continents.
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<p>&nbsp;</p>
 
-##### Regulatory convergence
+## Scientific Team
+Our scientists are recognized as the leading team by their peers and are credited with more than 60 patents and IP.
+They have a track record of successfully commercializing their inventions.
 
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+

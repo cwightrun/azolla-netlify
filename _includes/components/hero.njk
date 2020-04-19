@@ -7,17 +7,54 @@
 
     <picture>
         <source type="image/webp"
+                media="(max-width: 30em)"
+                srcset="{{ hero_image_xsmall_1x_webp }},
+                        {{ hero_image_xsmall_2x_webp }} 2x"
+                sizes="100vw"
+                />
+        <source media="(max-width: 30em)"
+                srcset="{{ hero_image_xsmall_1x_jpg }},
+                        {{ hero_image_xsmall_2x_jpg }} 2x"
+                sizes="100vw"
+                />
+        <source type="image/webp"
+                media="(max-width: 48em)"
+                srcset="{{ hero_image_small_1x_webp }},
+                        {{ hero_image_small_2x_webp }} 2x"
+                sizes="100vw"
+                />
+        <source media="(max-width: 48em)"
+                srcset="{{ hero_image_small_1x_jpg }},
+                        {{ hero_image_small_2x_jpg }} 2x"
+                sizes="100vw"
+                />
+        <source type="image/webp"
+                media="(min-width: 48em)"
+                srcset="{{ hero_image_medium_1x_webp }},
+                        {{ hero_image_medium_2x_webp }} 2x"
+                sizes="100vw"
+                />
+        <source media="(max-width: 48em)"
+                srcset="{{ hero_image_medium_1x_jpg }},
+                        {{ hero_image_medium_2x_jpg }} 2x"
+                sizes="100vw"
+                />
+        <source type="image/webp"
+                media="(min-width: 64em)"
                 srcset="{{ hero_image_desktop_1x_webp }},
                         {{ hero_image_desktop_2x_webp }} 2x"
+                sizes="100vw"
                 />
-        <source srcset="{{ hero_image_desktop_1x_jpg }},
+        <source media="(min-width: 64em)"
+                srcset="{{ hero_image_desktop_1x_jpg }},
                         {{ hero_image_desktop_2x_jpg }} 2x"
+                sizes="100vw"
                 />
         <img 
             loading="lazy"
             class="hero--image"
-            alt="Azolla"src="{{ hero_image_desktop_1x_jpg }}"
-            alt="The Speed of Light and the Timing of Eclipses" 
+            src="{{ hero_image_medium_1x_jpg }}"
+            alt="{{ hero_alt }}" 
         />
     </picture>
 
