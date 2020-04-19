@@ -43,22 +43,22 @@ hero_image_large_2x_webp: /static/img/home--large@2x.webp
 
 :::::: section--wrapper section--wrapper--home
 
-::: section section--home
+::: section
   ### Vision
   Inspire companies to rethink how everything is made, from your tooth brush to clothes, from the chair you sit on to your car, from packaging to aircraft.
 :::
 
-::: section section--home
+::: section
   ### Mission
   We are using advanced genetic engineering to solve one of world’s most challenging problems by transforming air pollution into high-performance biomaterial - EKKO.
 :::
 
-::: section section--home
+::: section
   ### Impact
   Fashion is the 2nd biggest polluter in the world and our goal is to develop textile fiber that will give the industry alternative to clean up their act cheaply, quickly and profitably.
 :::
 
-::: section section--home
+::: section
   ### Inspired by Nature
   Nature uses CO2 to grow things molecule by molecule, and we unlocked the secret to do the same.
 :::

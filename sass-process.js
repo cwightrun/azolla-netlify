@@ -3,6 +3,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 module.exports = (scssPath, cssPath) => {
+    console.log(`Watching ${path.dirname(scssPath)} into ${path.dirname(cssPath)}...`);
     //If cssPath directory doesn't exist...
     if(!fs.existsSync(path.dirname(cssPath))) {
         //Encapsulate rendered css from scssPath into result variable

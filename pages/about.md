@@ -7,15 +7,21 @@ eleventyNavigation:
   order: 1
 ---
 
-# About Azolla
+
+:::::: section--wrapper section--wrapper--about
 
 ::: section section--intro section-2-3
-  Our invention is <span class="highlight highlight--green">revolutionary</span>
-  Our raw materials are <span class="highlight highlight--green">abundant</span> and <span class="highlight highlight--green">free</span>
-  Our team is the <span class="highlight highlight--green">best</span> in their field
+  ### our invention is <span class="highlight highlight--green">revolutionary</span>
+  ### our raw materials are <span class="highlight highlight--green">abundant</span> and <span class="highlight highlight--green">free</span>
+  ### our team is the <span class="highlight highlight--green">best</span> in their field
 :::
 
-## Azolla Story
+:::::: section--wrapper section--wrapper--narrow
+
+::: section
+
+# About Azolla
+
 Our company is named after the Azolla Event:
 50 million years ago, atmospheric CO2 levels were extremely high and the future for all life seemed bleak. Out of nowhere, Azolla fern came to the rescue and by sucking the carbon dioxide out of the air saved the Planet!
 
@@ -32,4 +38,6 @@ We are innovative leaders skilled in product development, management and manufac
 Our scientists are recognized as the leading team by their peers and are credited with more than 60 patents and IP.
 They have a track record of successfully commercializing their inventions.
 
+:::
 
+::::::

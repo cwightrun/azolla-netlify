@@ -33,15 +33,15 @@ hero_image_large_2x_jpg: /static/img/ekko--large@2x.jpg
 hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 ---
 
-:::::: section--wrapper
+:::::: section--wrapper section--wrapper--narrow
 
 ::: section section--intro section-2-3
-  #### EKKO is a high-performance biomaterial made from thin air.
+  #### EKKO is a high-performance biomaterial made&nbsp;from&nbsp;thin&nbsp;air.
 :::
 
 ::::::
 
-:::::: section--wrapper section--wrapper--ekko
+:::::: section--wrapper section--wrapper--narrow
 
 ::: section
   ### Inspired by Nature
@@ -56,20 +56,25 @@ hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 ::: section
   ### Customizable
   EKKO is genetically engineered to target specific attributes like strength, elasticity, conductivity, transparency and durability.
-  It is stronger than Kevlar yet as light as cotton.
-:::
 
-::: section
-  ### Transformative
-  Fabrics that generate power through motion.
-  Food packaging that understands its contents.
-  Buildings that can react to changing environment, as if they are alive.
-  Products made from EKKO will be smarter, stronger and more dynamic. 
+  It is stronger than Kevlar yet as light as cotton.
 :::
 
 ::: section
   ### Undeniable Free Resources
   We are the ONLY company that is using ONLY free and abundant resources as the raw material to create sustainable consumer products.
+:::
+
+::::::
+
+:::::: section--wrapper section--wrapper--centered
+
+::: section section--intro section-2-3
+  ### Transformative
+  Fabrics that generate power through motion.
+  Food packaging that understands its contents.
+  Buildings that can react to changing environment, as if they are alive.
+  Products made from EKKO will be smarter, stronger and more dynamic.
 :::
 
 ::::::

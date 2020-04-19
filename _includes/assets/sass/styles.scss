@@ -26,6 +26,12 @@ footer {
   }
 }
 
+.highlight {
+  &--green {
+    color: $green;
+  }
+}
+
 @import "components/hero";
 @import "components/header";
 @import "components/callout";
