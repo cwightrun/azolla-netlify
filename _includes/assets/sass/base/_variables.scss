@@ -8,3 +8,10 @@ $max-width: 1280px;
 
 $spacing-mobile: 10px;
 $spacing-desktop: 20px;
+
+$mq-breakpoints: (
+    mobile:  320px,
+    tablet:  740px,
+    desktop: 1024px,
+    wide:    1366px
+);

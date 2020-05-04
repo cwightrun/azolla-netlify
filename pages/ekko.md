@@ -8,8 +8,8 @@ eleventyNavigation:
 body 2: This is body 2.
 hero_align: left
 hero_body: |-
-  ## a sustainable biomaterial<br />created using only CO<sub>2</sub> and sunlight
   # Ekko
+  ## a high-performance biomaterial made&nbsp;from&nbsp;thin&nbsp;air
 hero_alt: A sustainable biomaterial created using only CO2 and sunlight
 
 hero_image_xsmall_1x_jpg: /static/img/ekko--xsmall@1x.jpg
@@ -33,13 +33,13 @@ hero_image_large_2x_jpg: /static/img/ekko--large@2x.jpg
 hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 ---
 
-:::::: section--wrapper section--wrapper--narrow
+<!-- :::::: section--wrapper section--wrapper--narrow
 
 ::: section section--intro section-2-3
   #### EKKO is a high-performance biomaterial made&nbsp;from&nbsp;thin&nbsp;air.
 :::
 
-::::::
+:::::: -->
 
 :::::: section--wrapper section--wrapper--narrow
 
@@ -60,21 +60,21 @@ hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
   It is stronger than Kevlar yet as light as cotton.
 :::
 
-::: section
-  ### Undeniable Free Resources
-  We are the ONLY company that is using ONLY free and abundant resources as the raw material to create sustainable consumer products.
-:::
-
 ::::::
 
 :::::: section--wrapper section--wrapper--centered
 
-::: section section--intro section-2-3
+::: section section--medium align-center section-2-3
   ### Transformative
   Fabrics that generate power through motion.
   Food packaging that understands its contents.
   Buildings that can react to changing environment, as if they are alive.
-  Products made from EKKO will be smarter, stronger and more dynamic.
+  #### Products made from EKKO will be smarter, stronger and more dynamic – truly fit for the 21st century.
+:::
+
+::: section section--medium align-center section-2-3
+  ### Undeniable Free Resources
+  We are the <span class="highlight highlight--green bold">only</span> company that is using <span class="highlight highlight--green bold">only</span> free and abundant resources as the raw material to create sustainable consumer products.
 :::
 
 ::::::

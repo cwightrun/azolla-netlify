@@ -1,6 +1,9 @@
 <nav class="main-nav">
+  <input type="checkbox" name="nav-toggle" id="nav-toggle">
+  <label for="nav-toggle" class="nav-trigger"><span>Main Navigation</span></label>
+
   {% set navPages = collections.all | eleventyNavigation %}
-  <ul>
+  <ul class="main-menu">
   {%- for entry in navPages %}
     <li>
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>

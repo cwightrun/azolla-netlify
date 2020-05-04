@@ -1,4 +1,5 @@
 $header-height: 60px;
+$timing: 240ms;
 
 .main-header {
     // background: linear-gradient(9deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 150%);
@@ -42,5 +43,79 @@ $header-height: 60px;
             text-decoration: none;
             color: $green;
         }
+    }
+}
+
+
+// Device nav:
+#nav-toggle {
+    display: none;
+
+    &:checked ~ .main-menu {
+        z-index: 10;
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity $timing ease,
+                    transform $timing ease;
+    }
+}
+
+.nav-trigger {
+    display: flex;
+    margin-top: 8px;
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    flex-flow: column;
+    justify-content: space-between;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @include mq(tablet) {
+        display: none;
+    }
+
+    span {
+        display: inline-block;
+        text-indent: -9999px;
+    }
+
+    &::before,
+    &::after {
+        display: block;
+        content: '';
+    }
+
+    &::before,
+    &::after,
+    span {
+        height: 1px;
+        width: 100%;
+        background: $dark-grey;
+    }
+}
+
+.main-menu {
+    @include mq($until: tablet) {
+        display: none;
+        width: 100%;
+        max-width: 300px;
+        transition: opacity $timing ease,
+                    transform $timing ease,
+                    z-index 0ms ease $timing;
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-flow: column;
+        opacity: 0;
+        z-index: -10;
+        background: white;
+        transform: translateY(-10px);
+    }
+
+    @include mq(tablet) {
+        display: block;
     }
 }

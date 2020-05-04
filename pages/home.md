@@ -1,8 +1,8 @@
 ---
 title: Home
 hero_align: center
-hero_body: >
-  # Turning pollution into innovation
+hero_body: > 
+  # Turning pollution into<br>innovation
 layout: layouts/home.njk
 date: 2016-01-01T00:00:00.000Z
 permalink: /
@@ -36,7 +36,8 @@ hero_image_large_2x_webp: /static/img/home--large@2x.webp
 
 ::: section section--intro section-2-3
   #### The 20th century saw plastics change the world.
-  #### We're transforming the world’s greatest waste product into the most essential building block of the 21st century.
+  <!-- #### We're transforming the world’s greatest waste product into the most essential building block of the 21st century. -->
+  #### What's next?
 :::
 
 ::::::
@@ -45,22 +46,25 @@ hero_image_large_2x_webp: /static/img/home--large@2x.webp
 
 ::: section
   ### Vision
-  Inspire companies to rethink how everything is made, from your tooth brush to clothes, from the chair you sit on to your car, from packaging to aircraft.
+  Inspire companies to replace their fossil fuel-based raw materials with sustainable options to ensure hopeful, compelling and abundant future of our planet and its people.
 :::
 
 ::: section
   ### Mission
-  We are using advanced genetic engineering to solve one of world’s most challenging problems by transforming air pollution into high-performance biomaterial - EKKO.
+  Using synthetic biology to transform air pollution into EKKO – our high-performance biomaterial, we are solving one of the today’s most challenging environmental problems.
 :::
 
 ::: section
   ### Impact
-  Fashion is the 2nd biggest polluter in the world and our goal is to develop textile fiber that will give the industry alternative to clean up their act cheaply, quickly and profitably.
+  By giving industries the opportunity to rethink how everything is made, from your toothbrush to clothes, from the chair you sit on to your car, from packaging to aircraft, Azolla will have same profound impact on the world as plastics did, but instead of ruing the planet, we will heal it.
 :::
 
-::: section
-  ### Inspired by Nature
-  Nature uses CO2 to grow things molecule by molecule, and we unlocked the secret to do the same.
+::::::
+
+:::::: section--wrapper
+
+::: section section-2-3 section--closer
+  Industrial manufacturing generates billions of tons of CO 2 annually. Azolla’s biomanufacturing platform will empower industries to transform this CO 2 into high performance biomaterial that can be used to make everyday products.
 :::
 
 ::::::
