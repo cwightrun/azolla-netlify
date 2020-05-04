@@ -15,14 +15,18 @@ $timing: 240ms;
 
 #logo {
     display: block;
-    color: #444;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: $header-height;
-    font-weight: bold;
-    padding: 0 12px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    // color: #444;
+    // text-decoration: none;
+    // font-size: 16px;
+    // line-height: $header-height;
+    // font-weight: bold;
+    // padding: 0 12px;
+    // text-transform: uppercase;
+    // letter-spacing: 4px;
+    padding-top: 12px;
+    img {
+        max-height: calc(#{$header-height} - 24px);
+    }
 }
 
 .main-nav {
@@ -93,7 +97,7 @@ $timing: 240ms;
     &::before,
     &::after,
     span {
-        height: 1px;
+        height: 4px;
         width: 100%;
         background: $dark-grey;
     }
