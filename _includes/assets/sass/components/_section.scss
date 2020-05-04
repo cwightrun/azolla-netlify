@@ -17,9 +17,10 @@
   &--intro,
   &--closer,
   &--medium {
+    margin: auto;
+    
     @include mq(tablet) {
       max-width: 80%;
-      margin: auto;
     }
   }
 
@@ -169,6 +170,20 @@
 
     h3::before {
       display: none;
+    }
+  }
+
+  &--contact {
+    padding-top: 120px;
+    margin: auto;
+    max-width: 600px;
+
+    h1 {
+      font-size: 36px !important;
+    }
+
+    h2 {
+      font-size: 24px !important;
     }
   }
 }

@@ -6,9 +6,6 @@ hero_body: >
 layout: layouts/home.njk
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-eleventyNavigation:
-  key: ''
-  order: ''
 hero_alt: The Speed of Light and the Timing of Eclipses
 
 hero_image_xsmall_1x_jpg: /static/img/home--xsmall@1x.jpg

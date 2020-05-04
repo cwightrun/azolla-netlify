@@ -1,11 +1,10 @@
 ---
 title: EKKO
 date: 2020-04-01T21:37:41.622Z
-permalink: ekko.html
+permalink: /ekko.html
 eleventyNavigation:
   order: 0
   key: Ekko
-body 2: This is body 2.
 hero_align: left
 hero_body: |-
   # Ekko
