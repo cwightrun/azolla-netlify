@@ -61,7 +61,7 @@ hero_image_large_2x_webp: /static/img/home--large@2x.webp
 :::::: section--wrapper
 
 ::: section section-2-3 section--closer
-  Industrial manufacturing generates billions of tons of CO 2 annually. Azolla’s biomanufacturing platform will empower industries to transform this CO 2 into high performance biomaterial that can be used to make everyday products.
+  Industrial manufacturing generates billions of tons of CO<sub>2</sub> annually. Azolla’s biomanufacturing platform will empower industries to transform this CO<sub>2</sub> into high performance biomaterial that can be used to make everyday products.
 :::
 
 ::::::

@@ -18,7 +18,7 @@
   &--closer,
   &--medium {
     margin: auto;
-    
+
     @include mq(tablet) {
       max-width: 80%;
     }
@@ -38,7 +38,7 @@
     font-size: 24px;
     text-align: center;
   }
-  
+
   &--intro {
     padding-bottom: 96px;
 
@@ -170,6 +170,21 @@
 
     h3::before {
       display: none;
+    }
+
+    h1,
+    h2 {
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 120px;
+        background: $green;
+        position: absolute;
+        bottom: 0;
+      }
     }
   }
 

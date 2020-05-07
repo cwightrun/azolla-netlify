@@ -16,7 +16,7 @@ eleventyNavigation:
   #### our team is the <span class="highlight highlight--green">best</span> in their field
 :::
 
-:::::: section--wrapper section--wrapper--narrow
+:::::: section--wrapper section--wrapper--narrow section--wrapper--about
 
 ::: section
 
