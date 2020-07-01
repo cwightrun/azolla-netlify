@@ -75,10 +75,16 @@
   }
 
   &--wrapper--home {
+    .section {
+      margin-bottom: 48px;
+    }
+    
     @include mq(tablet) {
       .section {
         display: flex;
         flex-flow: row nowrap;
+        align-items: center;
+        width: 100%;
       }
     }
 
@@ -111,7 +117,7 @@
     p {
       @extend .large;
       margin-top: 0;
-      margin-bottom: 48px;
+      margin-bottom: 0;
       display: block;
 
       @include mq(tablet) {

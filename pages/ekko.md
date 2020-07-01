@@ -1,5 +1,5 @@
 ---
-title: EKKO
+title: Ekko
 date: 2020-04-01T21:37:41.622Z
 permalink: /ekko.html
 eleventyNavigation:
@@ -8,8 +8,8 @@ eleventyNavigation:
 hero_align: left
 hero_body: |-
   # Ekko
-  ## a high-performance biomaterial made&nbsp;from&nbsp;thin&nbsp;air
-hero_alt: A sustainable biomaterial created using only CO2 and sunlight
+  ## a high-performance textile fiber made&nbsp;from&nbsp;thin&nbsp;air
+hero_alt: A sustainable textile fiber made from thin air
 
 hero_image_xsmall_1x_jpg: /static/img/ekko--xsmall@1x.jpg
 hero_image_xsmall_1x_webp: /static/img/ekko--xsmall@1x.webp
@@ -44,18 +44,19 @@ hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 
 ::: section
   ### Inspired by Nature
-  Nature uses CO2 and sunlight to grow things molecule by molecule, we borrowed this elegant formula to create EKKO.
+  Nature uses CO2 and sunlight to grow things molecule by molecule. Our unique industrial photosynthesis biomanufacturing platform replicates this formula and converts CO 2 &amp; light into biofiber.
+  No sugar Added!
 :::
 
 ::: section
   ### Impactful
-  Following nature’s original circular economy: reuse, recycle and biodegrade, without generating any waste, EKKO is the ultimate solution for circular manufacturing.
+  Following nature’s original circular economy: reuse, recycle and biodegrade, without generating any waste, EKKO is the ultimate solution to transform textile industry.
 :::
 
 ::: section
   ### Customizable
   EKKO is genetically engineered to target specific attributes like strength, elasticity, conductivity, transparency and durability.
-
+  
   It is stronger than Kevlar yet as light as cotton.
 :::
 
@@ -66,9 +67,9 @@ hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 ::: section section--medium align-center section-2-3
   ### Transformative
   Fabrics that generate power through motion.
-  Food packaging that understands its contents.
-  Buildings that can react to changing environment, as if they are alive.
-  #### Products made from EKKO will be smarter, stronger and more dynamic – truly fit for the 21st century.
+  Clothes that can report on your health.
+  Textiles that can react to changing environment.
+  #### Products made from Ekko will be smarter, stronger and more dynamic &mdash; truly fit for 21st century.
 :::
 
 ::: section section--medium align-center section-2-3

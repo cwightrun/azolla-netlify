@@ -6,7 +6,7 @@ hero_body: >
 layout: layouts/home.njk
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-hero_alt: The Speed of Light and the Timing of Eclipses
+hero_alt: Azolla is making textiles out of thin air
 
 hero_image_xsmall_1x_jpg: /static/img/home--xsmall@1x.jpg
 hero_image_xsmall_1x_webp: /static/img/home--xsmall@1x.webp
@@ -29,43 +29,43 @@ hero_image_large_2x_jpg: /static/img/home--large@2x.jpg
 hero_image_large_2x_webp: /static/img/home--large@2x.webp
 ---
 
-:::::: section--wrapper
-
+:::::: section--wrapper section--wrapper--about
 ::: section section--intro section-2-3
-  #### The 20th century saw plastics change the world.
-  <!-- #### We're transforming the world’s greatest waste product into the most essential building block of the 21st century. -->
-  #### What's next?
+  ### Azolla is making textiles out of thin air.
+:::
+::::::
+
+:::::: section--wrapper section--wrapper--centered
+
+::: section section--medium align-center section-2-3
+  ### Why? Fashion is a very dirty industry.
+  Every year it uses 24 trillion gallons of water
+  More than 150 million trees are cut down and turned into fabric
+  Textile manufacturing emits 800 billion tons of CO 2 annually
+:::
+
+::: section section--closer align-center section-2-3
+  ### How?
+  Introducing Ekko: The world’s first carbon negative textile fiber.
 :::
 
 ::::::
+
 
 :::::: section--wrapper section--wrapper--home
 
 ::: section
   ### Vision
-  Inspire companies to replace their fossil fuel-based raw materials with sustainable options to ensure hopeful, compelling and abundant future of our planet and its people.
+  Make textile production sustainable by replacing current materials with carbon-negative options.
 :::
 
 ::: section
   ### Mission
-  Using synthetic biology to transform air pollution into EKKO – our high-performance biomaterial, we are solving one of the today’s most challenging environmental problems.
-:::
-
-::: section
-  ### Impact
-  By giving industries the opportunity to rethink how everything is made, from your toothbrush to clothes, from the chair you sit on to your car, from packaging to aircraft, Azolla will have same profound impact on the world as plastics did, but instead of ruing the planet, we will heal it.
-:::
-
-::::::
-
-:::::: section--wrapper
-
-::: section section-2-3 section--closer
-  Industrial manufacturing generates billions of tons of CO<sub>2</sub> annually. Azolla’s biomanufacturing platform will empower industries to transform this CO<sub>2</sub> into high performance biomaterial that can be used to make everyday products.
+  End environmental degradation caused by toxic manufacturing.
 :::
 
 ::::::
 
 <a href="/ekko.html" class="callout callout--large">
-  <h3>Introducing <span>Ekko<span>.</span></span></h3>
+  <h3>Learn more about <span>Ekko<span>.</span></span></h3>
 </a>
