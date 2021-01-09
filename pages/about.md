@@ -10,19 +10,19 @@ eleventyNavigation:
 
 :::::: section--wrapper section--wrapper--about
 
-::: section section--intro section-2-3
-  #### our invention is <span class="highlight highlight--green">transformative</span>
-  #### our raw materials are <span class="highlight highlight--green">abundant</span> and <span class="highlight highlight--green">free</span>
-  #### our team is the <span class="highlight highlight--green">best</span> in their field
+::: section section--intro section-2-3 bg--green
+  #### our invention is transformative
+  #### our raw materials are abundant and free
+  #### our team is the best in their field
 :::
 
 ::::::
 
-:::::: section--wrapper section--wrapper--narrow section--wrapper--about
+:::::: section--wrapper section--wrapper--narrow
 
 ::: section
 
-# About Azolla
+### About Azolla
 
 Our company is named after the <span class="bold">Azolla</span> Event:
 50 million years ago atmospheric CO 2 levels were extremely high, and the future seemed bleak for all life forms. Then the Azolla Fern emerged and sucked the carbon dioxide out of the air, restoring life and hope.
@@ -31,12 +31,12 @@ Today, San Francisco based <span class="bold">Azolla</span> is dedicated to maki
 
 <p>&nbsp;</p>
 
-## Executive Team
+### Executive Team
 We are innovative leaders skilled in product development, management and manufacturing. Through influence and leadership, we have been inspiring diverse communities of designers and inventors, scientists, public, government and military agencies on four continents.
 
 <p>&nbsp;</p>
 
-## Scientific Team
+### Scientific Team
 Our scientists are recognized as the leading team by their peers and are credited with more than 60 patents and IP.
 
 They have a track record of successfully commercializing their inventions.

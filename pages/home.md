@@ -2,7 +2,7 @@
 title: Home
 hero_align: center
 hero_body: > 
-  # Turning pollution into<br>innovation
+  # Making textiles out of thin air
 layout: layouts/home.njk
 date: 2016-01-01T00:00:00.000Z
 permalink: /
@@ -29,28 +29,29 @@ hero_image_large_2x_jpg: /static/img/home--large@2x.jpg
 hero_image_large_2x_webp: /static/img/home--large@2x.webp
 ---
 
-:::::: section--wrapper section--wrapper--about
+<!-- :::::: section--wrapper section--wrapper--about
 ::: section section--intro section-2-3
   ### Azolla is making textiles out of thin air.
 :::
-::::::
+:::::: -->
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//IdII-HfWX7E' frameborder='0' allowfullscreen></iframe></div>
 
 :::::: section--wrapper section--wrapper--centered
 
-::: section section--medium align-center section-2-3
-  ### Why? Fashion is a very dirty industry.
+::: section section--closer align-center section-2-3
+  ### Why?
+  #### Fashion is a very dirty industry.
   Every year it uses 24 trillion gallons of water
   More than 150 million trees are cut down and turned into fabric
-  Textile manufacturing emits 800 billion tons of CO 2 annually
+  Textile manufacturing emits 800 million tons of CO 2 annually
 :::
 
 ::: section section--closer align-center section-2-3
   ### How?
   Introducing Ekko: The world’s first carbon negative textile fiber.
 :::
-
 ::::::
-
 
 :::::: section--wrapper section--wrapper--home
 

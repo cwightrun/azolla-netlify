@@ -7,8 +7,8 @@ eleventyNavigation:
   key: Ekko
 hero_align: left
 hero_body: |-
-  # Ekko
-  ## a high-performance textile fiber made&nbsp;from&nbsp;thin&nbsp;air
+  # Ekko 
+  ## high-performance textile fiber made&nbsp;from&nbsp;thin&nbsp;air
 hero_alt: A sustainable textile fiber made from thin air
 
 hero_image_xsmall_1x_jpg: /static/img/ekko--xsmall@1x.jpg
@@ -42,10 +42,17 @@ hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 
 :::::: section--wrapper section--wrapper--narrow
 
+::: section section--intro section-2-3
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//gL5NZARRo6Y' frameborder='0' allowfullscreen></iframe></div>
+:::
+
+::::::
+
+:::::: section--wrapper section--wrapper--narrow
+
 ::: section
   ### Inspired by Nature
-  Nature uses CO2 and sunlight to grow things molecule by molecule. Our unique industrial photosynthesis biomanufacturing platform replicates this formula and converts CO 2 &amp; light into biofiber.
-  No sugar Added!
+  Nature uses CO2 and sunlight to grow things molecule by molecule. Our unique industrial photosynthesis biomanufacturing platform replicates this formula and converts CO2 &amp; light into biofiber.
 :::
 
 ::: section
