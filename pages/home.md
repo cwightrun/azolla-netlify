@@ -8,25 +8,25 @@ date: 2016-01-01T00:00:00.000Z
 permalink: /
 hero_alt: Azolla is making textiles out of thin air
 
-hero_image_xsmall_1x_jpg: /static/img/home--xsmall@1x.jpg
-hero_image_xsmall_1x_webp: /static/img/home--xsmall@1x.webp
-hero_image_xsmall_2x_jpg: /static/img/home--xsmall@2x.jpg
-hero_image_xsmall_2x_webp: /static/img/home--xsmall@2x.webp
+hero_image_xsmall_1x_jpg: /static/img/home--xsmall@1x copy.jpg
+# hero_image_xsmall_1x_webp: /static/img/home--xsmall@1x.webp
+hero_image_xsmall_2x_jpg: /static/img/home--xsmall@2x copy.jpg
+# hero_image_xsmall_2x_webp: /static/img/home--xsmall@2x.webp
 
-hero_image_small_1x_jpg: /static/img/home--small@1x.jpg
-hero_image_small_1x_webp: /static/img/home--small@1x.webp
-hero_image_small_2x_jpg: /static/img/home--small@2x.jpg
-hero_image_small_2x_webp: /static/img/home--small@2x.webp
+hero_image_small_1x_jpg: /static/img/home--small@1x copy.jpg
+# hero_image_small_1x_webp: /static/img/home--small@1x.webp
+hero_image_small_2x_jpg: /static/img/home--small@2x copy.jpg
+# hero_image_small_2x_webp: /static/img/home--small@2x.webp
 
-hero_image_medium_1x_jpg: /static/img/home--medium@1x.jpg
-hero_image_medium_1x_webp: /static/img/home--medium@1x.webp
-hero_image_medium_2x_jpg: /static/img/home--medium@2x.jpg
-hero_image_medium_2x_webp: /static/img/home--medium@2x.webp
+hero_image_medium_1x_jpg: /static/img/home--medium@1x copy.jpg
+# hero_image_medium_1x_webp: /static/img/home--medium@1x.webp
+hero_image_medium_2x_jpg: /static/img/home--medium@2x copy.jpg
+# hero_image_medium_2x_webp: /static/img/home--medium@2x.webp
 
-hero_image_large_1x_jpg: /static/img/home--large@1x.jpg
-hero_image_large_1x_webp: /static/img/home--large@1x.webp
-hero_image_large_2x_jpg: /static/img/home--large@2x.jpg
-hero_image_large_2x_webp: /static/img/home--large@2x.webp
+hero_image_large_1x_jpg: /static/img/home--large@1x copy.jpg
+# hero_image_large_1x_webp: /static/img/home--large@1x.webp
+hero_image_large_2x_jpg: /static/img/home--large@2x copy.jpg
+# hero_image_large_2x_webp: /static/img/home--large@2x.webp
 ---
 
 <!-- :::::: section--wrapper section--wrapper--about

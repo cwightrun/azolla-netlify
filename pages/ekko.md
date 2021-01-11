@@ -7,29 +7,30 @@ eleventyNavigation:
   key: Ekko
 hero_align: left
 hero_body: |-
-  # Ekko 
+  <img src="/static/img/ekko-logo-white.png" alt="Ekko Logo" style="display: block; max-width: 80%; width: 300px;" />
+  
   ## high-performance textile fiber made&nbsp;from&nbsp;thin&nbsp;air
 hero_alt: A sustainable textile fiber made from thin air
 
-hero_image_xsmall_1x_jpg: /static/img/ekko--xsmall@1x.jpg
-hero_image_xsmall_1x_webp: /static/img/ekko--xsmall@1x.webp
-hero_image_xsmall_2x_jpg: /static/img/ekko--xsmall@2x.jpg
-hero_image_xsmall_2x_webp: /static/img/ekko--xsmall@2x.webp
+hero_image_xsmall_1x_jpg: /static/img/ekko--xsmall@1x copy.jpg
+# hero_image_xsmall_1x_webp: /static/img/ekko--xsmall@1x.webp
+hero_image_xsmall_2x_jpg: /static/img/ekko--xsmall@2x copy.jpg
+# hero_image_xsmall_2x_webp: /static/img/ekko--xsmall@2x.webp
 
-hero_image_small_1x_jpg: /static/img/ekko--small@1x.jpg
-hero_image_small_1x_webp: /static/img/ekko--small@1x.webp
-hero_image_small_2x_jpg: /static/img/ekko--small@2x.jpg
-hero_image_small_2x_webp: /static/img/ekko--small@2x.webp
+hero_image_small_1x_jpg: /static/img/ekko--small@1x copy.jpg
+# hero_image_small_1x_webp: /static/img/ekko--small@1x.webp
+hero_image_small_2x_jpg: /static/img/ekko--small@2x copy.jpg
+# hero_image_small_2x_webp: /static/img/ekko--small@2x.webp
 
-hero_image_medium_1x_jpg: /static/img/ekko--medium@1x.jpg
-hero_image_medium_1x_webp: /static/img/ekko--medium@1x.webp
-hero_image_medium_2x_jpg: /static/img/ekko--medium@2x.jpg
-hero_image_medium_2x_webp: /static/img/ekko--medium@2x.webp
+hero_image_medium_1x_jpg: /static/img/ekko--medium@1x copy.jpg
+# hero_image_medium_1x_webp: /static/img/ekko--medium@1x.webp
+hero_image_medium_2x_jpg: /static/img/ekko--medium@2x copy.jpg
+# hero_image_medium_2x_webp: /static/img/ekko--medium@2x.webp
 
-hero_image_large_1x_jpg: /static/img/ekko--large@1x.jpg
-hero_image_large_1x_webp: /static/img/ekko--large@1x.webp
-hero_image_large_2x_jpg: /static/img/ekko--large@2x.jpg
-hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
+hero_image_large_1x_jpg: /static/img/ekko--large@1x copy.jpg
+# hero_image_large_1x_webp: /static/img/ekko--large@1x.webp
+hero_image_large_2x_jpg: /static/img/ekko--large@2x copy.jpg
+# hero_image_large_2x_webp: /static/img/ekko--large@2x.webp
 ---
 
 <!-- :::::: section--wrapper section--wrapper--narrow
