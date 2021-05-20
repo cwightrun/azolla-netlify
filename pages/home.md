@@ -67,6 +67,6 @@ hero_image_large_2x_jpg: /static/img/home--large@2x copy.jpg
 
 ::::::
 
-<a href="/ekko.html" class="callout callout--large">
+<!-- <a href="/ekko.html" class="callout callout--large">
   <h3>Learn more about <span>Ekko<span>.</span></span></h3>
-</a>
+</a> -->

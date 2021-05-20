@@ -1,10 +1,10 @@
 ---
 title: Ekko
 date: 2020-04-01T21:37:41.622Z
-permalink: /ekko.html
+permalink: /ekko--archived.html
 eleventyNavigation:
-  order: 0
-  key: Ekko
+  # order: 0
+  # key: Ekko
 hero_align: left
 hero_body: |-
   <img src="/static/img/ekko-logo-white.png" alt="Ekko Logo" style="display: block; max-width: 80%; width: 300px;" />
